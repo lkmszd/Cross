@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+  background-color: #F1F1F1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #A1A6B4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.icons {
+  color: black;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.footer .icons {
+  color: white;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1160px;
+  padding: 32px 0;
+  margin: 0 20px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.social {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;;
+}
+
+main {
+  max-width: 1160px;
+  padding: 0px;
+  margin: 0 20px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer_main {
+  display: flex;
+  width: 100%;
+  max-width: 1160px;
+  padding: 32px 0 20px 0;
+  flex-direction: column;
+  gap: 32px;
+  box-sizing: border-box;
+}
+
+.footer {
+  color: white;
+  background-color: #121723;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  box-sizing: border-box;
+
+}
+
+.footer_copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  box-sizing: border-box;
+
+}
+
+.footer-logo {
+  max-width: 300px;
+}
+
+h1 {
+  font-size: 56px;
+  margin: 0px;
+}
+
+h2 {
+	font-size: 48px;
+  margin: 0px;
+}
+
+h3 {
+	font-size: 26px;
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.sneaker {
+  width: 370px;
+	display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.container_image {
+	
+  border-radius: 12px;
+  align-self: stretch;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 32px 24px;
+  gap: 10px;
+}
+
+span {
+  font-size: 16px;
+  margin: 0px;
+  color: #A1A6B4;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 0px;
+}
+
+#footer_line {
+  background-color: #E6E8EC;
+  opacity: 40%;
+  border: 0;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  .header_content {
+    max-width: 960px;
+  }
+
+  .sneaker {
+    width: 304px;
+  }
+
+  main {
+    max-width: 960px;
+  }
+
+  .footer_main {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  .header_content {
+    max-width: 720px;
+  }
+
+  .sneaker {
+    width: 348px;
+  }
+
+  main {
+    max-width: 720px;
+  }
+
+  .footer_main {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header_content {
+    justify-content: center;
+    max-width: 343px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  
+  .footer_content {
+    justify-content: center;
+  }
+
+  .sneaker {
+    max-width: 343px;
+    width: 100%;
+  }
+
+  main {
+    max-width: 343px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .footer_main {
+    max-width: 343px;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+}
