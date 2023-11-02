@@ -84,7 +84,6 @@ main {
   height: auto;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   background-color: white;
   border-radius: 50px;
   padding: 48px;
@@ -106,10 +105,10 @@ main {
 
 .main_text {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   gap: 32px;
+  flex-grow: 1;
 }
 
 .main_text_p {
@@ -122,8 +121,6 @@ main {
 .main_text_info {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  max-width: 506px;
   width: 100%;
   gap: 20px;
 }
@@ -231,9 +228,9 @@ h3 {
 }
 
 h4 {
-    font-size: 30px;
-    margin: 0;
-    font-weight: 400;
+  font-size: 30px;
+  margin: 0;
+  font-weight: 400;
 }
 
 .sneaker h3 {
@@ -289,14 +286,22 @@ span {
   border: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
     .header_content {
         justify-content: center;
     }
 
     .main_crocs {
-        padding: 24px;
-        border-radius: 12px;
+      padding: 24px;
+      border-radius: 12px;
+    }
+
+    .main_text {
+      flex-wrap: wrap;
+    }
+
+    .main_text_p {
+      max-width: none;
     }
 
     h1 {
