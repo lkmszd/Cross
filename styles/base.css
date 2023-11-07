@@ -1,15 +1,5 @@
-@font-face {
-  font-family: "Anonymous Pro";
-  src: url(fonts/AnonymousPro-Bold.ttf);
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Anonymous Pro";
-  src: url(fonts/AnonymousPro-Regular.ttf);
-}
-
 body {
+  font-family: "Anonymous Pro", "Arial" sans-serif;
   background-color: #F1F1F1;
   align-items: center;
   display: flex;
