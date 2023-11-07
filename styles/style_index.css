@@ -1,0 +1,86 @@
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .header_content {
+    max-width: 960px;
+  }
+
+  .sneaker {
+    width: 304px;
+  }
+
+  main {
+    max-width: 960px;
+  }
+
+  .footer_main {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  .header_content {
+    max-width: 720px;
+  }
+
+  .sneaker {
+    width: 348px;
+  }
+
+  main {
+    max-width: 720px;
+  }
+
+  .footer_main {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header_content {
+    justify-content: space-around;
+    width: 100%;
+    padding: 24px 16px;
+  }
+
+  .logo {
+    max-width: 215px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .footer_content {
+    justify-content: space-around;
+  }
+
+  .sneaker {
+    max-width: 343px;
+    width: 100%;
+  }
+
+  main {
+    justify-content: center;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .footer {
+    padding: 0 16px;
+  }
+
+  .footer_main {
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+}
+
