@@ -1,3 +1,7 @@
+main {
+  box-sizing: content-box;
+}
+
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
   .header_content {
     max-width: 960px;
@@ -39,10 +43,13 @@
 }
 
 @media screen and (max-width: 767px) {
+  .header {
+    padding: 0 16px;
+  }
+
   .header_content {
     justify-content: space-around;
     width: 100%;
-    padding: 24px 16px;
   }
 
   .logo {
